@@ -1,0 +1,25 @@
+.appbar {
+    height: 3rem;
+    align-items: flex-start;
+    margin:0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:none;
+}
+
+svg.icon {
+    margin: 0.5rem;
+    width:1.5rem;
+    height:1.5rem; 
+    fill: var(--mainColor);
+}
+
+svg.icon:hover {
+    cursor: pointer;
+}
+
+
+svg.add {
+    margin-left: auto;
+}

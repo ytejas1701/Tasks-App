@@ -1,0 +1,74 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.taskBox {
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    background-color: #222;
+    border: 1px #444 solid;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 4px #111;
+    width: 30rem;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.date {
+    color: #888;
+}
+
+.description {
+    color: #888;
+    margin: 1rem 2.5rem;
+    word-wrap: break-word;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #888;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap:1rem;
+}
+
+.heading>svg {
+    fill: var(--mainColor);
+}
+
+.heading>svg {
+    cursor: pointer;
+    fill: var(--mainColor);
+}
+
+
+.heading>svg.trash {
+    fill:#444;
+    margin-left: auto;
+}
+
+.heading>svg.trash:hover {
+    cursor: pointer;
+    fill: salmon;
+}
+
+svg.nav {
+    fill: #888;
+}
+
+svg.nav:hover {
+    cursor: pointer;
+    fill: white;
+}

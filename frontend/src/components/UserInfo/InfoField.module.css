@@ -1,0 +1,38 @@
+.infoField {
+    display: flex;
+    flex-direction: column;
+    font-family: 'arial';
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.heading>.label {
+    color: white;
+    font-weight: bold;
+}
+
+.heading>.value {
+    color: #aaa;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.infoField>button {
+    width: fit-content;
+    padding: 0.5rem;
+    background-color: transparent;
+    margin-top: 0.5rem;
+    border: 1px solid var(--mainColor);
+    border-radius: 6px;
+    color: var(--mainColor);
+}
+
+.infoField>button:hover {
+    cursor: pointer;
+}
+
+.infoField>button:active {
+    cursor: pointer;
+    background-color: var(--mainColor);
+    color: #222;
+}

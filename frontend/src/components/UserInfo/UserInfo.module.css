@@ -1,0 +1,33 @@
+.userInfo {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: #222;
+    border: 1px #444 solid;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 4px #111;
+    margin: 0rem auto
+}
+
+button.delete {
+    width: fit-content;
+    align-self: flex-end;
+    background-color: transparent;
+    color: salmon;
+    font-weight: bold;
+    border: 2px solid salmon;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+button.delete:hover {
+    cursor: pointer;
+}
+
+button.delete:active {
+    cursor: pointer;
+    background-color: salmon;
+    color: #222;
+}

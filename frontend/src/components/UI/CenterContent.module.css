@@ -1,0 +1,7 @@
+.centerContent {
+    margin: 0rem auto;
+    box-sizing: border-box;
+    padding-top: 2rem;
+    width: 50vw;
+    min-height: 100vh;
+}

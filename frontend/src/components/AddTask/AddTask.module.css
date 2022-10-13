@@ -1,0 +1,113 @@
+.addTask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    width: 30vw;
+    height: fit-content;
+    background-color: #222;
+    border: 1px #444 solid;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 4px #111;
+}
+
+.addTask>input {
+    background-color: transparent;
+    border: none;
+}
+.addTask>input:focus {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.addTask>textarea {
+    background-color: transparent;
+    border: none;
+    font-family: 'calibri';
+    resize: none;
+    height:120px
+}
+.addTask>textarea:focus {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.addTitle {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    border: none;
+}
+
+.addDate {
+    color: #222;
+    font-size: 1rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+    font-family: 'calibri';
+}
+
+.addDescription{
+    color: #888;
+}
+
+.addTask>button {
+    background-color: var(--mainColor);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    color: #222;
+    font-family: 'calibri';
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    align-self: flex-end;
+}
+
+.addTask>button:hover {
+    cursor: pointer;
+}
+
+.addTask>button:disabled {
+    background-color: #888;
+}
+
+
+svg.cancel {
+    align-self: flex-end;
+}
+
+svg.cancel:hover {
+    cursor: pointer;
+    fill: salmon;
+}
+
+::-webkit-datetime-edit-fields-wrapper { 
+    background-color: var(--mainColor); 
+    border-radius: 6px;
+    margin: none;
+    padding: 0.2rem 0.5rem;
+}
+::-webkit-calendar-picker-indicator {
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 6px;
+    margin: none; 
+}
+::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+
+

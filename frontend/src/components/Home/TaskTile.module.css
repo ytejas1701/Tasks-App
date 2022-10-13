@@ -1,0 +1,58 @@
+.task {
+    margin: 1rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #444;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.task svg:hover{
+    cursor: pointer;
+}
+
+.taskInfo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'calibri';
+    color: #eee;
+}
+
+.taskInfo>.taskTitle{
+    font-size: 1.4rem;
+}
+
+.taskInfo>.taskDate{
+    font-size: 1rem;
+}
+
+.taskInfo>.taskDate.late{
+    color: salmon;
+}
+
+.taskActions {
+    display: none;
+    margin-left: auto;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.taskActions>svg:hover {
+    fill: salmon
+}
+
+.task:hover > .taskActions{
+    cursor: pointer;
+    display: flex;
+}
+
+.task>.iconBox>svg {
+    fill:var(--mainColor);
+}
+
+a {
+    text-decoration: none;
+}
