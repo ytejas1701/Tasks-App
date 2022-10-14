@@ -8,9 +8,7 @@ I developed the backend with ExpressJS, using MongoDB for persistence of data. F
 
 ## Gallery
 <p>
-  <img src="https://user-images.githubusercontent.com/97452093/195893705-62bac304-6e53-437a-95d6-e77f359f4fd3.png" width="500" />
-  <img src="(https://user-images.githubusercontent.com/97452093/195893713-84318684-9904-4965-89e2-0abdb2005621.png" width="500" />
-</p>
-<p>
-  <img src="https://user-images.githubusercontent.com/97452093/195893716-28a5b0b8-a1fd-497f-8ec5-bc420c0a5d5f.png" width="500" /> 
+  <img src="./screenshots/img1.png" width="500" />
+  <img src="./screenshots/img2.png" width="500" />
+  <img src="./screenshots/img3.png" width="500" /> 
 </p>
