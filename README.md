@@ -5,7 +5,18 @@ A basic MERN application for keeping a to-do list. Users can create new tasks, m
 I developed the backend with ExpressJS, using MongoDB for persistence of data. For authorization, I used JSON Web Tokens. I designed the user interface myself, where I chose an overall dark theme for the app, and then I developed it with ReactJS. I also used React-redux and React-router libraries.
 
 ## Features
-
+  - [x] ~~Login/Signup~~
+  - [x] ~~Authorization~~
+  - [x] ~~Create tasks~~
+  - [x] ~~List tasks to be done today~~
+  - [x] ~~Highlight tasks which are overdue~~
+  - [x] ~~Mark tasks as done~~
+  - [x] ~~Snackbar alerts~~
+  - [x] ~~View old tasks~~
+  - [ ] Edit the content of tasks
+  - [ ] Choice of accent color
+  - [ ] Rearrange tasks according to priority
+  
 ## Gallery
   <img src="./screenshots/img1.png" />
   <img src="./screenshots/img2.png" />
